@@ -1,6 +1,3 @@
-# ============================================
-# 6. LAMBDA - HÀM ẨN DANH
-# ============================================
 # Lambda là hàm 1 dòng, không tên, không cần def
 # Cú pháp: lambda arguments: expression
 # Chỉ chứa 1 biểu thức, không có statement (if, for, return,...)

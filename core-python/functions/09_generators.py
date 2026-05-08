@@ -1,6 +1,3 @@
-# ============================================
-# 9. GENERATORS - HÀM SINH
-# ============================================
 # Generator là hàm dùng yield thay vì return
 # yield: trả về giá trị và TẠM DỪNG hàm, lần gọi sau TIẾP TỤC từ điểm dừng
 # Generator tiết kiệm bộ nhớ vì sinh từng giá trị, không lưu cả list

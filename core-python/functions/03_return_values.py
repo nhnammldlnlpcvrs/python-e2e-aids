@@ -1,7 +1,3 @@
-# ============================================
-# 3. RETURN VALUES - GIÁ TRỊ TRẢ VỀ
-# ============================================
-
 # --- return: trả về giá trị và kết thúc hàm ---
 def add(a, b):
     return a + b  # Trả về tổng, hàm kết thúc tại đây

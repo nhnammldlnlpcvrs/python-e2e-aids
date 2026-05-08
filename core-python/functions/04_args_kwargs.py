@@ -1,7 +1,3 @@
-# ============================================
-# 4. *args & **kwargs - THAM SỐ LINH HOẠT
-# ============================================
-
 # --- *args: nhận nhiều tham số không tên (positional) ---
 # *args gói tất cả tham số thừa thành 1 tuple
 def sum_all(*args):

@@ -1,6 +1,3 @@
-# ============================================
-# 5. SCOPE - PHẠM VI BIẾN
-# ============================================
 # Python có quy tắc LEGB: Local -> Enclosing -> Global -> Built-in
 
 # ===== GLOBAL SCOPE =====

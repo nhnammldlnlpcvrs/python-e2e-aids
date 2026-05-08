@@ -1,6 +1,3 @@
-# ============================================
-# 8. DECORATORS - TRANG TRÍ HÀM
-# ============================================
 # Decorator là hàm nhận vào 1 hàm, trả về 1 hàm mới
 # Dùng để thêm tính năng mà không sửa code gốc
 # Cú pháp: @decorator_name đặt trên def

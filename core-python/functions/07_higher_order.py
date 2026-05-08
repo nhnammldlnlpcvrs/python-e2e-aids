@@ -1,6 +1,3 @@
-# ============================================
-# 7. HIGHER-ORDER FUNCTIONS - HÀM BẬC CAO
-# ============================================
 # Hàm bậc cao là hàm: nhận hàm khác làm tham số HOẶC trả về 1 hàm
 
 # ===== MAP: áp dụng hàm lên từng phần tử =====

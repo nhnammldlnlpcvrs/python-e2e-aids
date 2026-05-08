@@ -1,7 +1,3 @@
-# ============================================
-# 2. PARAMETERS - THAM SỐ HÀM
-# ============================================
-
 # --- Tham số bắt buộc (Positional) ---
 def greet(name, age):
     """name và age là tham số bắt buộc"""
