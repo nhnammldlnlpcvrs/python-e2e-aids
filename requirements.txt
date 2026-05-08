@@ -1,0 +1,39 @@
+# AI / Machine Learning
+torch
+scikit-learn
+xgboost
+catboost
+transformers
+spacy
+nltk
+gensim
+fasttext-wheel
+lightgbm
+pytorch-lightning
+
+# Data Processing
+pandas
+numpy
+scipy
+
+# Computer Vision
+opencv-python
+Pillow
+torchvision
+scikit-image
+
+# Visualization
+matplotlib
+seaborn
+plotly
+autoviz
+
+# Utilities
+joblib
+datasets
+evaluate
+tensorboard
+tqdm
+
+# Testing
+pytest
