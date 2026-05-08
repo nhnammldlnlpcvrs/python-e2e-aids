@@ -47,3 +47,4 @@ data/
 *.csv
 *.parquet
 !data/.gitkeep
+.claude
