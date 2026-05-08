@@ -1,0 +1,49 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# pytest
+.pytest_cache/
+
+# ML
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+checkpoints/
+
+# Data
+data/
+*.csv
+*.parquet
+!data/.gitkeep
