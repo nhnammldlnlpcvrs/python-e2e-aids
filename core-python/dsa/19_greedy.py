@@ -201,7 +201,7 @@ print(f"  Kết quả: {coin_change_greedy([1, 2, 5, 10], 28)}")
 print("Bộ xu 'lạ' {1,3,4}, amount=6:")
 result = coin_change_greedy([1, 3, 4], 6)
 print(f"  Greedy: {result} (4+1+1 = 3 xu)")
-print(f"  Tối ưu thực sự: 3+3 = 2 xu")
+print("  Tối ưu thực sự: 3+3 = 2 xu")
 print("  -> Greedy KHÔNG luôn tối ưu cho Coin Change!")
 
 print("\n=== Minimum Platforms ===")

@@ -290,7 +290,7 @@ algorithms = {
 def measure(func, arr):
     arr_copy = arr[:]
     start = time.perf_counter()
-    result = func(arr_copy)
+    func(arr_copy)
     elapsed = time.perf_counter() - start
     return elapsed
 
@@ -300,7 +300,7 @@ for name, func in algorithms.items():
     t2 = measure(func, almost_sorted)
     print(f"{name:<22} {t1:>8.4f}s {t2:>13.4f}s")
 
-print(f"\nTất cả đều xác nhận đúng:", end=" ")
+print("\nTất cả đều xác nhận đúng:", end=" ")
 expected = sorted(large_arr)
 all_correct = all(
     func(large_arr) == expected

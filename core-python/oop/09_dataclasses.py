@@ -5,7 +5,6 @@
 # Giảm boilerplate code khi class chủ yếu để chứa dữ liệu
 
 from dataclasses import dataclass, field, asdict, astuple
-from typing import List
 
 # ===== TRƯỚC KHI CÓ dataclass (code nhiều) =====
 class PersonOld:

@@ -113,7 +113,7 @@ print(ht)
 print(f"get('banana'): {ht.get('banana')}")
 print(f"get('kiwi'): {ht.get('kiwi')}")  # None
 ht.delete("orange")
-print(f"Sau delete('orange'):")
+print("Sau delete('orange'):")
 print(ht)
 
 # ==============================

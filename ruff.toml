@@ -1,0 +1,4 @@
+[lint]
+# E402: imports in educational files are intentionally placed near usage
+# E731: lambda assignments are intentional in 06_lambda.py
+ignore = ["E402", "E731"]

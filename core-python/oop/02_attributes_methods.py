@@ -125,7 +125,7 @@ class Demo:
     @staticmethod
     def static_method():
         """Không self, không cls -> độc lập hoàn toàn"""
-        return f"static_method: không có self/cls"
+        return "static_method: không có self/cls"
 
 
 d = Demo()

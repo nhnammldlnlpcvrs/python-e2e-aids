@@ -211,8 +211,8 @@ print("Get arr[3]:", bit.get(3))
 print("\n--- So sánh hiệu năng ---")
 import time
 
-def naive_range_sum(arr, l, r):
-    return sum(arr[l:r+1])
+def naive_range_sum(arr, left, right):
+    return sum(arr[left:right+1])
 
 large_arr = list(range(50000))
 bit_large = FenwickTree(large_arr)

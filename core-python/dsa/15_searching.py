@@ -253,7 +253,8 @@ print(f"search_rotated(99): {search_rotated(rotated, 99)}")
 # ==============================
 
 print("\n=== So sánh ===")
-import time, random
+import time
+import random
 
 large_sorted = sorted([random.randint(0, 10000000) for _ in range(100000)])
 

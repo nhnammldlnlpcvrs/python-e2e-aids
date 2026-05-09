@@ -84,7 +84,7 @@ print("\n--- Kiểm tra kiểu ---")
 print(isinstance(s1, Student))  # True - s1 là instance của Student
 print(isinstance(s1, object))  # True - mọi class đều kế thừa object
 print(type(s1))  # <class '__main__.Student'>
-print(type(s1) == Student)  # True
+print(type(s1) is Student)  # True
 
 
 # --- __dict__: xem tất cả attributes của object ---

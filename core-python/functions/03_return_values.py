@@ -17,7 +17,7 @@ print(do_nothing())  # None
 
 # --- Không có return -> cũng trả về None ---
 def no_return():
-    x = 1 + 1  # Code chạy nhưng không return gì cả
+    _ = 1 + 1  # Code chạy nhưng không return gì cả
 
 
 print(no_return())  # None

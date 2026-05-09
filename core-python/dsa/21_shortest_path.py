@@ -198,7 +198,7 @@ g_fw.add_edge(2, 1, 2)
 g_fw.add_edge(2, 3, 5)
 dist_fw, vertices, idx = floyd_warshall(g_fw)
 print("Ma trận khoảng cách:")
-print(f"    ", " ".join(f"{v:>3}" for v in vertices))
+print("    ", " ".join(f"{v:>3}" for v in vertices))
 for i, v in enumerate(vertices):
     row = [f"{dist_fw[i][j]:3.0f}" if dist_fw[i][j] != float('inf') else " INF" for j in range(len(vertices))]
     print(f"  {v} ", " ".join(row))

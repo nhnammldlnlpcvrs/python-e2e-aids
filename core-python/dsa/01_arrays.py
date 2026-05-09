@@ -120,11 +120,11 @@ def prefix_sum(arr):
         pre[i] = pre[i-1] + arr[i]
     return pre
 
-def range_sum(pre, l, r):
-    """Tổng arr[l...r] dùng prefix sum - O(1)"""
-    if l == 0:
-        return pre[r]
-    return pre[r] - pre[l-1]
+def range_sum(pre, left, right):
+    """Tổng arr[left...right] dùng prefix sum - O(1)"""
+    if left == 0:
+        return pre[right]
+    return pre[right] - pre[left-1]
 
 nums = [3, 1, 4, 1, 5, 9, 2, 6]
 pre = prefix_sum(nums)

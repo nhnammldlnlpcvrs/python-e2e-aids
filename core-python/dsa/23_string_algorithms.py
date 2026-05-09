@@ -133,25 +133,25 @@ def longest_palindrome_expand(s):
     """Tìm palindrome dài nhất - expand around center - O(n^2)"""
     if not s:
         return ""
-    start, max_len = 0, 1
+    start_idx, max_len = 0, 1
     for i in range(len(s)):
         # Palindrome độ dài lẻ
-        l, r = i, i
-        while l >= 0 and r < len(s) and s[l] == s[r]:
-            if r - l + 1 > max_len:
-                start = l
-                max_len = r - l + 1
-            l -= 1
-            r += 1
+        left, right = i, i
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            if right - left + 1 > max_len:
+                start_idx = left
+                max_len = right - left + 1
+            left -= 1
+            right += 1
         # Palindrome độ dài chẵn
-        l, r = i, i + 1
-        while l >= 0 and r < len(s) and s[l] == s[r]:
-            if r - l + 1 > max_len:
-                start = l
-                max_len = r - l + 1
-            l -= 1
-            r += 1
-    return s[start:start + max_len]
+        left, right = i, i + 1
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            if right - left + 1 > max_len:
+                start_idx = left
+                max_len = right - left + 1
+            left -= 1
+            right += 1
+    return s[start_idx:start_idx + max_len]
 
 
 # Manacher's Algorithm (overview + simplified)
