@@ -20,9 +20,9 @@ class Solution:
 
 # Test case
 sol = Solution()
-nums1 = [1,2,3,9,88, 21, 23]
-m = 4
-nums2 = [2,5,6]
+nums1 = [1, 2, 3, 0, 0, 0]
+m = 3
+nums2 = [2, 5, 6]
 n = 3
 sol.merge(nums1, m, nums2, n)
 print(nums1)
